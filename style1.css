@@ -1,0 +1,119 @@
+body{
+    background-image: url(background_image.png);
+}
+
+
+/* start of nav bar */
+
+
+.nav_bar{
+    width:vw;
+    height:80px;
+    background:transparent;
+    backdrop-filter: blur(40px);
+    border-radius:20px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.nav_bar a{
+    text-decoration: none;
+}
+.nav_bar_items{
+    width:100px;
+    height:50px;
+    background-color:#002451;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:15px;
+    transition:all 0.3s ease-out 0s;
+}
+.nav_bar_items p{
+    color:white;
+}
+.nav_bar_items:hover{
+    cursor: pointer;
+    transform:scale(1.4,1.2);
+}
+.nav_bar_items:active{
+    cursor:pointer;
+    transform:scale(1.1,0.9);
+}
+
+
+/* end of nav bar */
+/* start of main content */
+
+
+.my_name{
+    height:150px;
+    width:vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.my_name p{
+    font-size: 50px;
+    font-family: arial;
+    color:white;
+    background:transparent;
+    backdrop-filter:blur(20px);
+    border-radius: 20px;
+    padding:20px;
+}
+.main_content{
+    width:vw;
+    height:750px;
+    /* background-color:bisque; */
+    display:flex;
+    justify-content: space-around;
+
+}
+.my_bio{
+    margin-top:50px;
+    height:fit-content;
+    width:800px;
+    /* background: transparent;
+    backdrop-filter: blur(25px); */
+    background-color: #002451;
+    border-radius:20px;
+    padding:10px;
+}
+.my_bio h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+.my_bio p{
+    font-size: 20px;
+    color:white;
+
+}
+.my_image{
+    height:500px;
+    width:405px;
+    margin-top:50px;
+}
+
+
+/* end of main content */
+/* start of footer */
+
+
+.footer{
+    height: 70px;
+    width:vw;
+    background-color: #002451;
+    border-radius:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    font-size: 25px;
+    color:white;
+}
+
+
+/* end of footer */
