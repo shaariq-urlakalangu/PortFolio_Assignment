@@ -84,11 +84,25 @@ body{
     color:white;
     font-size:30px;
 }
-.projects1 a{
+.pro{
+    height:20px;
+    width:fit-content;
     text-decoration: none;
     color:white;
     font-size:16px;
     padding:10px;
     background-color: #0077B6;
     border-radius:20px;
+    transition:all 0.2s ease-out 0s;
+}
+.projects1 a{
+    text-decoration: none;
+}
+.pro:hover{
+    cursor: pointer;
+    transform:scale(1.05,1.05);
+}
+.pro:active{
+    cursor: pointer;
+    transform:scale(1,1);
 }
