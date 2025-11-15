@@ -110,7 +110,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.footer p{
+.footer span{
     font-size: 25px;
     color:white;
 }
