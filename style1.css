@@ -1,14 +1,5 @@
 body{
     background-image: url(background_image.png);
-    animation: animate_body 1.5s linear 0s;
-}
-@keyframes animate_body{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 
 
