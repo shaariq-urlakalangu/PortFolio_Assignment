@@ -10,6 +10,7 @@ body{
     width:vw;
     height:80px;
     background:transparent;
+    -webkit-backdrop-filter: blur(40px);
     backdrop-filter: blur(40px);
     border-radius:20px;
     display:flex;
@@ -59,7 +60,8 @@ body{
     font-family: arial;
     color:white;
     background:transparent;
-    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     border-radius: 20px;
     padding:20px;
 }
