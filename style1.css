@@ -97,7 +97,9 @@ body{
     width:405px;
     margin-top:50px;
 }
-
+#img1{
+    border-radius: 20px;
+}
 
 /* end of main content */
 /* start of footer */
