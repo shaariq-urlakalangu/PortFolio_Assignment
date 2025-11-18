@@ -64,7 +64,7 @@ body{
     border-radius:20px;
 }
 .projects_bar{
-    height:800px;
+    height:auto;
     width:vw;
     margin-top:20px;
     display:flex;
@@ -82,6 +82,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 20px;
 }
 .projects1 p{
     color:white;
