@@ -1,0 +1,81 @@
+#body1{
+    height:600px;
+    width:300px;
+    display:flex;
+    background-color:rgb(59, 100, 133);
+    border:3px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    border:3px solid rgb(238, 255, 0);
+    border-radius:1.5rem;
+    transition:all 0.3s linear 0s;
+}
+#a{
+    height:50px;
+    width:300px;
+    background-color: rgb(59, 100, 133);
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    transition:all 0.3s linear 0s;
+}
+#e{
+    height:100px;
+    width:300px;
+    background-color:rgb(128, 159, 187);
+    border-radius:20px;
+    text-align: center;
+    font-size: 2rem;
+    color:white;
+    transition:all 0.3s linear 0s;
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+#c{
+    height:100px;
+    width:100px;
+    background-color:greenyellow;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    border:3px solid black;
+    transition:all 0.3s linear 0s;
+}
+#b{
+    height:100px;
+    width:100px;
+    background-color:red;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    border:3px solid black;
+    transition:all 0.3s linear 0s;
+}
+#d{
+    height:100px;
+    width:200px;
+    background-color:rgb(128, 159, 187);
+    border-radius:20px;
+    font-size: 1.5rem;
+    color:white;
+    transition:all 0.3s linear 0s;
+}
+#c:hover{
+    background-color: aqua;
+}
+#b:hover{
+    background-color: aqua;
+}
+#d:hover{
+    background-color: aqua;
+}
+#c:active{
+    background-color:yellow;
+}
+#b:active{
+    background-color:yellow;
+}
+#d:active{
+    background-color:yellow;
+    color:rgb(0, 0, 0);
+}

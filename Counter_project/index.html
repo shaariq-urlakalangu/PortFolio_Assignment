@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Counter</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <div id="body1">
+                <div id="a">Counter</div>
+                <div id="e"><p>0</p></div>
+                <button id="c" onclick="Inc()">Inc</button>
+                <button id="b" onclick="Dec()">Dec</button>
+                <button id="d" onclick="Res()">Reset</button>
+            </div>
+            <script>
+                x=0
+                function Inc(){
+                    x=x+1;
+                    document.getElementById("e").innerHTML=x;
+                }
+                function Dec(){
+                    if(x>0){
+                        x=x-1;
+                        document.getElementById("e").innerHTML=x;
+                    }
+                    else{
+                        alert("value cannot go under zero")
+                    } 
+                }
+                function Res(){
+                    x=0;
+                    document.getElementById("e").innerHTML=x;
+                }
+            </script>
+        </body>
+    </html>
