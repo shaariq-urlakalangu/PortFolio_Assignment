@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+/*  */
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+background-color: #ffffff;
+color: #222222;
+}
+
+/* Utility flex classes */
+.flex {
+display: flex;
+}
+
+.space-between {
+justify-content: space-between;
+}
+
+.space-evenly {
+justify-content: space-evenly;
+}
+
+/* Layout containers */
+.section-container {
+width: 100%;
+margin: 40px 0 80px;
+padding: 0 80px;
+flex-direction: column;
+gap: 56px;
+}
+
+/* Nav bar */
+nav {
+width: 100%;
+padding: 16px 80px;
+align-items: center;
+}
+
+nav img {
+height: 32px;
+}
+
+#cart {
+align-items: center;
+gap: 12px;
+font-size: 14px;
+font-weight: 600;
+}
+
+#cart img {
+height: 28px;
+width: 28px;
+}
+
+/* Hero header */
+header {
+background-image: url("./assets/kw-background.png");
+background-size: cover;
+background-position: center;
+min-height: 340px;
+display: flex;
+align-items: center;
+}
+
+.header-text {
+width: 100%;
+padding: 70px 80px 90px;
+flex-direction: column;
+color: #ffffff;
+}
+
+.header-text h1 {
+font-size: 52px;
+line-height: 1.1;
+font-weight: 700;
+}
+
+.header-text h5 {
+margin-top: 20px;
+font-size: 18px;
+font-weight: 600;
+}
+
+/* Sections */
+.section h2 {
+font-size: 28px;
+margin-bottom: 24px;
+}
+
+.container {
+display: flex;
+gap: 24px;
+}
+
+/* Product cards */
+.container > div {
+background-color: #ffffff;
+}
+
+.container > div > div:first-child {
+padding-bottom: 8px;
+}
+
+.books,
+.games,
+.crafts {
+width: 180px;
+height: 240px;
+object-fit: cover;
+display: block;
+margin-bottom: 12px;
+}
+
+.section h3 {
+font-size: 16px;
+margin-bottom: 4px;
+}
+
+.section h4 {
+font-size: 13px;
+font-weight: 500;
+color: #777777;
+}
+
+.buy {
+padding: 0 0 8px;
+align-items: center;
+}
+
+.buy p {
+font-weight: 700;
+font-size: 15px;
+}
+
+/* Add button */
+.button {
+align-items: center;
+gap: 6px;
+padding: 6px 10px;
+border-radius: 4px;
+background-color: #1b6df3;
+cursor: pointer;
+}
+
+.button h6 {
+font-size: 12px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+.button img {
+width: 16px;
+height: 16px;
+}
+
+/* Footer */
+footer {
+border-top: 1px solid #eeeeee;
+margin-top: 40px;
+padding: 24px 80px 40px;
+width: 100%;
+align-items: center;
+}
+
+footer h2 {
+font-size: 20px;
+margin-bottom: 12px;
+}
+
+footer img {
+width: 72px;
+height: 72px;
+border-radius: 50%;
+object-fit: cover;
+}
+
+#details {
+flex-direction: column;
+align-items: flex-end;
+gap: 4px;
+}
+
+#details p {
+font-size: 13px;
+color: #555555;
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+nav {
+padding: 12px 24px;
+}
+
+.header-text {
+padding: 40px 24px 48px;
+}
+
+.header-text h1 {
+font-size: 40px;
+}
+
+.section-container {
+padding: 0 24px;
+}
+
+.container {
+flex-wrap: wrap;
+}
+
+.books,
+.games,
+.crafts {
+width: 150px;
+height: 210px;
+}
+
+footer {
+padding: 24px 24px 40px;
+}
+}
+
+@media (max-width: 600px) {
+nav {
+padding: 10px 16px;
+}
+
+nav img {
+height: 28px;
+}
+
+#cart p {
+font-size: 12px;
+}
+
+header {
+min-height: 260px;
+}
+
+.header-text {
+padding: 28px 16px 32px;
+}
+
+.header-text h1 {
+font-size: 32px;
+}
+
+.header-text h5 {
+font-size: 16px;
+}
+
+.section-container {
+margin-top: 24px;
+margin-bottom: 48px;
+gap: 40px;
+padding: 0 16px;
+}
+
+.section h2 {
+text-align: left;
+}
+
+.container {
+flex-direction: column;
+align-items: flex-start;
+}
+
+.container > div {
+width: 100%;
+max-width: 260px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+border-radius: 8px;
+}
+
+footer {
+flex-direction: column;
+gap: 16px;
+align-items: center;
+}
+
+#details {
+align-items: center;
+text-align: center;
+}
+}
