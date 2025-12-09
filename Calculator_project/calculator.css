@@ -1,0 +1,92 @@
+.main_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#body{
+    height:700px;
+    width:350px;
+    background-color:rgb(62, 130, 179);
+    border:3px solid black;
+    border-radius:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-content:space-around;
+}
+#result{
+    height:100px;
+    width:300px;
+    background-color:rgb(150, 213, 249);
+    margin-top: 20px;
+    border:3px solid black;
+    border-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+}
+.num{
+    height:70px;
+    width:70px;
+    background-color:rgb(199, 237, 252);
+    margin-right:5px;
+    margin-left: 5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    border:3px solid black;
+    border-radius:20px;
+    transition: all 0.1s ease-out 0s;
+}
+.arith{
+    height:70px;
+    width:70px;
+    background-color:rgb(9, 66, 131);
+    margin-right:5px;
+    margin-left: 5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    color:white;
+    border:3px solid black;
+    border-radius:20px;
+    transition: all 0.1s ease-out 0s;
+}
+.enter1{
+   width:100px;
+   height:80px;
+   background-color:rgb(102, 221, 254);
+   border:3px solid black;
+   border-radius:20px;
+   font-size:40px;
+   transition: all 0.1s ease-out 0s;
+}
+.num:hover{
+    background-color:rgb(142, 171, 182);
+    cursor: pointer;
+}
+.arith:hover{
+    background-color:rgb(39, 82, 132);
+    cursor: pointer;
+}
+.enter1:hover{
+    background-color:rgb(86, 178, 206);
+    cursor: pointer;
+}
+.num:active{
+    background-color:yellow;
+    transform: scale(0.9,0.9);
+}
+.arith:active{
+    background-color:yellow;
+    color:black;
+    transform: scale(0.9,0.9);
+}
+.enter1:active{
+    background-color:yellow;
+    color:black;
+    transform: scale(0.9,0.9);
+}
