@@ -90,4 +90,9 @@
         #errorDisplay{
             font-size: 3rem;
             color:white;
+            display: none;
+        }
+        #outputImage{
+            height: 400px;
+            display: none;
         }
