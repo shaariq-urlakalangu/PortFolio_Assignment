@@ -1,0 +1,93 @@
+*{
+            margin:0px;
+            padding:0px;
+        }
+        .main_block{
+            width:100vw;
+            height:100vh;
+            background-color:#001C40;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .secondary_block{
+            height:100%;
+            width:70%;
+        }
+        .upper{
+            height:20%;
+            width:100%;
+            /* background-color: blue; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .upper p{
+            font-size: 8vw;
+            color: white;
+        }
+        .lower{
+            height:80%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+        .search_input{
+            width:80%;
+            height:30%;
+            background-color: #153C74;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+        }
+        #pokemonName{
+            width: 50%;
+            height: 30%;
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-top: 5%;
+            margin-bottom: 3%;
+            border-radius: 1rem;
+            font-size: 1.5rem;
+            border: none;
+        }
+        #pokemonName::placeholder{
+            text-align: center;
+        }
+        #but{
+            width: 30%;
+            height: 30%;
+            margin-left: 35%;
+            margin-right: 35%;
+            margin-bottom: 5%;
+            border-radius: 5rem;
+            border: none;
+            font-size: 1.5rem;
+            transition:all 0.15s ease-out 0s;
+        }
+        #but:hover{
+            transform:scale(1.04);
+            cursor: pointer;
+        }
+        #but:active{
+            transform:scale(1);
+        }
+        .main_output{
+            width: 80%;
+            height: 60%;
+            background-color: #153C74;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+        #errorDisplay{
+            font-size: 3rem;
+            color:white;
+        }
